@@ -17,16 +17,20 @@ Key definitions:
      <li>Most recent creatinine lab value within 24 months (continuous)</li>
      <li>Race (categories: )</li>
      <li>Ethnicity (values: )</li>
-     <li>Most recent hemoglobin lab value in the prior 6 months</li>
-     <li>Most recent lactate dehydrogenase (LDH) lab value in the prior 6 months</li>
+     <li>Most recent hemoglobin lab value in the prior 6 months (continuous)</li>
+     <li>Most recent lactate dehydrogenase (LDH) lab value in the prior 6 months (continuous)</li>
+     <li>Receiving anticoagulation medication in the prior 6 months (coded 0/1)</li>
+     <li>Having flow cytometry lab test in the prior 12 months</li>
+     <li>Most recent creatinine lab value in the prior 6 months</li>
   </ol>
 
 Key technical requirements:
 - XGBoost:  The best performing model was XGBoost (https://xgboost.readthedocs.io/en/stable/).  A portable XGBoost model is provided and can be utilized with the XGBoost package in languages such as Python or R.
 
 General notes about performance:
-- 
+- The XGBoost model will produce a continous score.
+- Setting the threshold for further workup should be tested within a local environment due to variation in lab testing (i.e., Hb) patterns.
 
 General notes about methods:
-- The model was trained using electronic health record (EHR) data covering 67MM patients in the United States
-- Limited 
+- The model was trained using electronic health record (EHR) data covering 67MM patients in the United States and limited to entry from 2016 to 2023 to allow adequate follow-up.
+- In the independent (30%) validation set, area under the receiver operating characteristic curve (AUROC) was 0.72 and precision recall (AUPRC) was 0.05.
