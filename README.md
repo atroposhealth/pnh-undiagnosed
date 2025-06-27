@@ -15,13 +15,13 @@ Key definitions:
      <li>Low haptoglobin in the prior 24 months (coded 0/1)</li>
      <li>Myelodysplastic syndrome diagnosis in the primary 3 months (coded 0/1)</li>
      <li>Most recent creatinine lab value within 24 months (continuous)</li>
-     <li>Race (categories: )</li>
-     <li>Ethnicity (values: )</li>
+     <li>Race (categories: Asian, Black, Other, White)</li>
+     <li>Ethnicity (values: HISPANIC OR LATINO, NOT HISPANIC OR LATINO, UNKNOWN)</li>
      <li>Most recent hemoglobin lab value in the prior 6 months (continuous)</li>
      <li>Most recent lactate dehydrogenase (LDH) lab value in the prior 6 months (continuous)</li>
      <li>Receiving anticoagulation medication in the prior 6 months (coded 0/1)</li>
      <li>Having flow cytometry lab test in the prior 12 months</li>
-     <li>Most recent creatinine lab value in the prior 6 months</li>
+     <li>Most recent creatinine lab value in the prior 6 months (continuous)</li>
   </ol>
 
 Key technical requirements:
@@ -33,4 +33,4 @@ General notes about performance:
 
 General notes about methods:
 - The model was trained using electronic health record (EHR) data covering 67MM patients in the United States and limited to entry from 2016 to 2023 to allow adequate follow-up.
-- In the independent (30%) validation set, area under the receiver operating characteristic curve (AUROC) was 0.72 and precision recall (AUPRC) was 0.05.
+- In the independent (30%) validation set, area under the receiver operating characteristic curve (AUROC) was 0.76 and precision recall (AUPRC) was 0.06.
