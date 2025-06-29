@@ -15,8 +15,6 @@ Key definitions:
      <li>Low haptoglobin in the prior 24 months (coded 0/1)</li>
      <li>Myelodysplastic syndrome diagnosis in the primary 3 months (coded 0/1)</li>
      <li>Most recent creatinine lab value within 24 months (continuous)</li>
-     <li>Race (categories: Asian, Black, Other, White)</li>
-     <li>Ethnicity (values: HISPANIC OR LATINO, NOT HISPANIC OR LATINO, UNKNOWN)</li>
      <li>Most recent hemoglobin lab value in the prior 6 months (continuous)</li>
      <li>Most recent lactate dehydrogenase (LDH) lab value in the prior 6 months (continuous)</li>
      <li>Receiving anticoagulation medication in the prior 6 months (coded 0/1)</li>
