@@ -1,4 +1,4 @@
-# Paroxysmal Nocturnal Haemoglobinuria (PNH) Diagnosis & Early Detection Model
+# Paroxysmal Nocturnal Hemoglobinuria (PNH) Diagnosis & Early Detection Model
 
 PNH is a very rare condition that can be difficult to diagnosis due to non-specific presentation and lack of specific workup.  We have built and are providing a machine learning algorithm that can be used to identify patients who may warrant appropriate workup for PNH.
 
