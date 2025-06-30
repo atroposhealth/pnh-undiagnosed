@@ -32,4 +32,4 @@ General notes about performance:
 General notes about methods:
 - The model was trained using electronic health record (EHR) data covering 67MM patients in the United States and limited to entry from 2016 to 2023 to allow adequate follow-up.
 - Over 350 candidate predictive features were tested, but the 13 features above performed as well as the full model.
-- In the independent (30%) validation set, area under the receiver operating characteristic curve (AUROC) was 0.76 and precision recall (AUPRC) was 0.06.
+- In the independent (30%) validation set, area under the receiver operating characteristic curve (AUROC) was 0.77 and precision recall (AUPRC) was 0.08.
