@@ -5,7 +5,7 @@ PNH is a very rare condition that can be difficult to diagnosis due to non-speci
 Key definitions:
 - Applicable population: Patients not already diagnosed with PNH and having a hemoglobin (Hb) laboratory draw (typically part of a complete blood count (CBC) panel)
 - Target for prediction: ICD-10 for PNH (D59.5) within 3 to 12 months of the Hb draw
-- Key features:
+- Key features (see <A HREF=https://github.com/atroposhealth/pnh-undiagnosed/blob/main/PNH%20Model%20Feature%20Dictionary.xlsx>feature dictionary</A> for technical definitions):
   <ol type="1">
      <li>Aplastic anemia in the prior 24 months (coded 0/1)</li>
      <li>Charlson comorbidity index (continous integer)</li>
