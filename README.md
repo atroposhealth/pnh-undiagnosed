@@ -33,4 +33,4 @@ General notes about methods:
 - The model was trained using electronic health record (EHR) data covering 67MM patients in the United States and limited to entry from 2016 to 2023 to allow adequate follow-up.
 - Over 350 candidate predictive features were tested, but the 13 features above performed as well as the full model.
 - In the independent (30%) validation set, area under the receiver operating characteristic curve (AUROC) was 0.77 and precision recall (AUPRC) was 0.08.
-- Physician review of the 20 "false positive" cases with the highest PNH probability estimates determined 70% warranted workup for PNH.
+- Physician review of the 20 "false positive" cases with the highest PNH probability estimates determined >70% warranted workup for PNH.
