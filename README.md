@@ -8,7 +8,7 @@ Key definitions:
 - Key features (see <A HREF=https://github.com/atroposhealth/pnh-undiagnosed/blob/main/PNH%20Model%20Feature%20Dictionary.xlsx>feature dictionary</A> for technical definitions):
   <ol type="1">
      <li>Aplastic anemia in the prior 24 months (coded 0/1)</li>
-     <li>Charlson comorbidity index (continous integer)</li>
+     <li>Charlson comorbidity index (continuous integer)</li>
      <li>Aplastic anemia in the prior 12 months (coded 0/1)</li>
      <li>Age (continuous)</li>
      <li>Anemia broad in the prior 6 months (coded 0/1)</li>
