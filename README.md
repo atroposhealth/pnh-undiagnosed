@@ -26,7 +26,7 @@ Key technical requirements:
 - XGBoost:  The best performing model was XGBoost (https://xgboost.readthedocs.io/en/stable/).  A portable XGBoost model is provided and can be utilized with the XGBoost package in languages such as Python or R.
 
 General notes about performance:
-- The XGBoost model will produce a continous score.
+- The XGBoost model will produce a continuous score.
 - Setting the threshold for further workup should be tested within a local environment due to variation in lab testing (i.e., Hb) patterns.
 
 General notes about methods:
