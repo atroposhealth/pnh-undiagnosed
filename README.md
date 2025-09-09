@@ -1,6 +1,6 @@
 # Paroxysmal Nocturnal Hemoglobinuria (PNH) Diagnosis & Early Detection Model
 
-PNH is a very rare condition that can be difficult to diagnosis due to non-specific presentation and lack of specific workup.  We have built and are providing a machine learning algorithm that can be used to identify patients who may warrant appropriate workup for PNH.
+PNH is a very rare condition that can be difficult to diagnose due to non-specific presentation and lack of specific workup.  We have built and are providing a machine learning algorithm that can be used to identify patients who may warrant appropriate workup for PNH.
 
 Key definitions:
 - Applicable population: Patients not already diagnosed with PNH and having a hemoglobin (Hb) laboratory draw (typically part of a complete blood count (CBC) panel)
